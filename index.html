@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart School App | Modern School Management Solution</title>
+    <meta name="description"
+        content="Experience the next generation of school management. Our app streamlines administration, teacher workflows, and student life with a unified, smart platform. Mark attendance, manage homeworks, track fees and stay updated on the go.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header id="navbar">
+        <div class="container container-header">
+            <div class="logo">
+                <a href="#hero" class="logo-wrapper">
+                    <img src="images/cropped-jean-transparent-black-300x185.png" alt="Jeasigns School App Logo"
+                        class="brand-logo">
+                    <span class="logo-tagline">Jeasigns Technologies</span>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#problems">Problems We Solve</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#screenshots">Screenshots</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-btn">
+                <a href="#contact" class="btn btn-primary btn-sm">Get Started</a>
+            </div>
+            <div class="mobile-menu" id="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="container hero-grid">
+            <div class="hero-content" data-aos="fade-right">
+                <h1 class="hero-title">Smart School <br><span class="gradient-text">Management App</span></h1>
+                <p class="hero-description">School Management System simplifies daily school operations by connecting
+                    Administration, Teachers, Students, and Parents on one secure mobile platform.</p>
+                <div class="hero-btns">
+                    <a href="#demo" class="btn btn-primary"><span class="btn-icon"><i class="fas fa-play"></i></span>
+                        Watch Demo</a>
+                    <a href="#features" class="btn btn-outline">Explore Features</a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <img src="school_app_hero_mockup_1774865991859.png" alt="Smart School App Hero Mockup" id="hero-img">
+                <div class="blob"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problems We Solve Section -->
+    <section class="problems" id="problems" style="background: var(--bg-light);">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tagline">Challenges Handled</span>
+                <h2 class="section-title">✅ Problems We Solve</h2>
+                <p class="section-desc">We replace outdated manual processes with smart, digital alternatives.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card" data-aos="fade-up">
+                    <div class="why-icon" style="background: rgba(255, 45, 85, 0.1); color: var(--accent);"><i
+                            class="fas fa-book-dead"></i></div>
+                    <h3>Manual Registers</h3>
+                    <p>Eliminate tedious paper-based attendance registers and switch to instant digital tracking.</p>
+                </div>
+                <div class="why-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="why-icon" style="background: rgba(255, 45, 85, 0.1); color: var(--accent);"><i
+                            class="fas fa-clipboard-check"></i></div>
+                    <h3>Homework Issues</h3>
+                    <p>Solve management headaches with digital assignments and submission tracking for every student.
+                    </p>
+                </div>
+                <div class="why-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="why-icon" style="background: rgba(255, 45, 85, 0.1); color: var(--accent);"><i
+                            class="fas fa-user-friends"></i></div>
+                    <h3>Communication Gaps</h3>
+                    <p>Bridge the gap between school and home with instant notifications and real-time updates.</p>
+                </div>
+                <div class="why-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="why-icon" style="background: rgba(255, 45, 85, 0.1); color: var(--accent);"><i
+                            class="fas fa-file-invoice"></i></div>
+                    <h3>Paper Records</h3>
+                    <p>Replace lost files and messy cabinets with secure, searchable, and paper-based records & reports.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tagline">Integrated Services</span>
+                <h2 class="section-title">Powerful Features for Everyone</h2>
+                <p class="section-desc">Explore the comprehensive toolsets designed specifically for each role in your
+                    school ecosystem.</p>
+            </div>
+
+            <div class="features-tabs" data-aos="fade-up">
+                <button class="tab-btn active" data-target="admin">For Administration</button>
+                <button class="tab-btn" data-target="teacher">For Teachers</button>
+                <button class="tab-btn" data-target="student">For Parents & Students</button>
+            </div>
+
+            <div class="tab-content" id="admin" data-aos="zoom-in">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+                        <h3>Attendance Dashboard</h3>
+                        <p>Get a bird's-eye view of your school-wide attendance patterns and trends in real-time.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-calendar-alt"></i></div>
+                        <h3>Smart Timetable</h3>
+                        <p>Manage complex schedules and class rotations with our intelligent timetable management
+                            system.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-calendar-check"></i></div>
+                        <h3>Event Management</h3>
+                        <p>Easily inform everyone about school holidays, special days like 'Yellow Day', and events.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-bullhorn"></i></div>
+                        <h3>Multi-level Alerts</h3>
+                        <p>Send notifications to specific students, teachers, classes, or the entire school for fee
+                            payments, etc.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-images"></i></div>
+                        <h3>Photo Gallery</h3>
+                        <p>Shared visual updates of school life with a curated photo gallery for events and
+                            achievements.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-tasks"></i></div>
+                        <h3>School Monitoring</h3>
+                        <p>Monitor all school operations from a single administrative panel accessible anytime.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content hidden" id="teacher">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-user-check"></i></div>
+                        <h3>Attendance in Seconds</h3>
+                        <p>Mark daily attendance for your entire class in just a few taps with instant sync.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-file-upload"></i></div>
+                        <h3>Digital Homework</h3>
+                        <p>Assign homework digitally with attachments and instructions delivered to every student.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-clock"></i></div>
+                        <h3>Personal Timetable</h3>
+                        <p>Quick access to your own teaching schedule, periods, and classroom assignments.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-check-double"></i></div>
+                        <h3>HW Track & Review</h3>
+                        <p>Track student homework submissions and completion updates in one clean interface.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tab-content hidden" id="student">
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-check-circle"></i></div>
+                        <h3>Attendance Updates</h3>
+                        <p>Parents get instant daily attendance updates to stay informed about their child's presence.
+                        </p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-bell"></i></div>
+                        <h3>HW Notifications</h3>
+                        <p>Receive notifications for new homework and updates on completion status automatically.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-bullhorn"></i></div>
+                        <h3>School Announcements</h3>
+                        <p>Stay updated with school events, announcements, and critical notices in real-time.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-calendar-day"></i></div>
+                        <h3>Events & Schedules</h3>
+                        <p>Easy access to examination schedules, portions, and upcoming school holidays.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Section -->
+    <section class="why-choose" id="why-choose">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tagline">Benefits & Value</span>
+                <h2 class="section-title">🚀 Why Choose This System?</h2>
+                <p class="section-desc">Empowering educational institutions with state-of-the-art management tools.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="why-icon"><i class="fas fa-hourglass-half"></i></div>
+                    <h3>Saves Vital Time</h3>
+                    <p>Dramatically reduces teacher and office administrative time thru streamlined automated workflows.
+                    </p>
+                </div>
+                <div class="why-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="why-icon"><i class="fas fa-leaf"></i></div>
+                    <h3>Reduces Paperwork</h3>
+                    <p>Go 100% digital and reduce paperwork costs, filing space, and environmental impact.</p>
+                </div>
+                <div class="why-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="why-icon"><i class="fas fa-heart"></i></div>
+                    <h3>Improves Engagement</h3>
+                    <p>Strengthens parent engagement with direct communication and student progress transparency.</p>
+                </div>
+                <div class="why-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="why-icon"><i class="fas fa-user-shield"></i></div>
+                    <h3>No Training Required</h3>
+                    <p>Incredibly easy to use for all staff and parents with an intuitive mobile-first interface.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platform Features Section -->
+    <section class="platform-features" id="platform"
+        style="background-color: var(--bg-dark); color: white; padding: 100px 0;">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tagline" style="color: var(--primary-light);">Anywhere, Anytime</span>
+                <h2 class="section-title" style="color: white;">📱 Platform Features</h2>
+                <p class="section-desc" style="color: rgba(255,255,255,0.7);">Our system is built for the modern mobile
+                    world, accessible on all your devices.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card" style="background: rgba(255,255,255,0.05); color: white;" data-aos="fade-up">
+                    <div class="why-icon"><i class="fas fa-mobile-alt"></i></div>
+                    <h3>Mobile App</h3>
+                    <p style="color: rgba(255,255,255,0.7);">Dedicated apps for Admin, Teachers & Parents with
+                        role-specific access.</p>
+                </div>
+                <div class="why-card" style="background: rgba(255,255,255,0.05); color: white;" data-aos="fade-up"
+                    data-aos-delay="100">
+                    <div class="why-icon"><i class="fas fa-robot"></i></div>
+                    <h3>Android & iOS</h3>
+                    <p style="color: rgba(255,255,255,0.7);">Full support for both platforms ensuring everyone in your
+                        school can connect.</p>
+                </div>
+                <div class="why-card" style="background: rgba(255,255,255,0.05); color: white;" data-aos="fade-up"
+                    data-aos-delay="200">
+                    <div class="why-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Local Setup</h3>
+                    <p style="color: rgba(255,255,255,0.7);">On-site setup and local support available to ensure a
+                        smooth transition.</p>
+                </div>
+                <div class="why-card" style="background: rgba(255,255,255,0.05); color: white;" data-aos="fade-up"
+                    data-aos-delay="300">
+                    <div class="why-icon"><i class="fas fa-headset"></i></div>
+                    <h3>Full Support</h3>
+                    <p style="color: rgba(255,255,255,0.7);">Our team is happy to help with Fee Details, Chat,
+                        Transport, Leave, and more.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="screenshots" id="screenshots">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tagline">Visual Experience</span>
+                <h2 class="section-title">App Screenshots</h2>
+                <p class="section-desc">Clean, modern interface designed for ease of use across all age groups.</p>
+            </div>
+            <div class="screenshot-grid" data-aos="fade-up">
+                <div class="screenshot-item"><img src="images/img-1.png" alt="App Dashboard Screenshot"></div>
+                <div class="screenshot-item"><img src="images/img-2.jpeg" alt="Features Overview Screenshot"></div>
+                <div class="screenshot-item"><img src="images/img-3.png" alt="User Interface Details"></div>
+                <div class="screenshot-item"><img src="images/img-4.jpeg" alt="Task Management UI"></div>
+                <div class="screenshot-item"><img src="images/img-5.png" alt="Communication Dashboard"></div>
+                <div class="screenshot-item"><img src="images/img-6.jpeg" alt="Settings and Reports"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Video Section -->
+    <section class="demo" id="demo">
+        <div class="container container-narrow">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tagline">See it in Action</span>
+                <h2 class="section-title">Demo Video</h2>
+                <p class="section-desc">Watch a quick walkthrough of our platform and witness the efficiency for
+                    yourself.</p>
+            </div>
+            <div class="video-wrapper" data-aos="fade-up">
+                <video controls poster="school_app_hero_mockup_1774865991859.png" class="demo-video">
+                    <source src="video/demo video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <h2 class="contact-title">Ready to modernize your school?</h2>
+                    <p>Connect with our team to get a personalized demo and setup guide.</p>
+                    <div class="contact-methods">
+                        <a href="https://wa.me/917871143124" class="contact-item">
+                            <div class="contact-icon icon-whatsapp"><i class="fab fa-whatsapp"></i></div>
+                            <div class="contact-text">
+                                <span>WhatsApp Us</span>
+                                <strong>7871143124</strong>
+                            </div>
+                        </a>
+                        <a href="mailto:[jeanjeyasingh@gmail.com]" class="contact-item">
+                            <div class="contact-icon icon-email"><i class="fas fa-envelope"></i></div>
+                            <div class="contact-text">
+                                <span>Email Support</span>
+                                <strong>jeanjeyasingh@gmail.com</strong>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Full Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="School Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="4" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <span class="logo-text">Jeasigns <span class="accent">Technologies</span></span>
+                    <p>&copy; 2026 Jeasigns Technologies. All rights reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
