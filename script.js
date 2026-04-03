@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const body = encodeURIComponent(`Hello,\n\nYou have received a new message from your website contact form:\n\nName: ${name}\nEmail: ${email}\n\nMessage:\n${message}\n\nBest regards,\n${name}`);
             
             // Trigger the email client
-            const mailtoUrl = `mailto:jeanjeyasingh@gmail.com?subject=${subject}&body=${body}`;
+            const mailtoUrl = `mailto:contact@jeanwebdesigns.com?subject=${subject}&body=${body}`;
             
             // Small delay to show "Opening Email..." status
             setTimeout(() => {
